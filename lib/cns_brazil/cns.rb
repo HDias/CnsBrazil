@@ -14,6 +14,7 @@ module CnsBrazil
 
       false
     end
+    alias_opposite :valid?, :invalid?
 
     def self.generate
       generator = CnsBrazil::Generator.new
