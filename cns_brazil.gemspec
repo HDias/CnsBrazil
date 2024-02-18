@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   s.require_paths = %w[lib]
 
-  s.homepage    = 'https://github.com/matheusvetor/CnsBrazil'
+  s.homepage    = 'https://github.com/HDias/CnsBrazil'
   s.license     = 'MIT'
 
   s.add_development_dependency 'coveralls', '0.8.23'
