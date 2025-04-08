@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    cns_brazil (1.0.4)
-      activemodel (= 7.0.4)
+    cns_brazil (1.0.5)
+      activemodel
 
 GEM
   remote: https://rubygems.org/
@@ -82,10 +82,10 @@ PLATFORMS
 
 DEPENDENCIES
   cns_brazil!
-  coveralls
+  coveralls (= 0.8.23)
   rspec (= 3.12.0)
   rubocop (= 1.38.0)
   shoulda-matchers (= 5.2.0)
 
 BUNDLED WITH
-   2.1.4
+   2.5.6
